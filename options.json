@@ -1,0 +1,21 @@
+{
+    "CMSiteServer" : "siteserver.domain.com",
+    "CMSiteCode" : "SMS",
+    "DeploymentNamePrefix" : "Servers - ",
+    "LogFile" : "C:\\temp\\sccm\\deploymentlog.txt",
+    "DeploymentOptions" : {
+                                "DeploymentType" : "Required",
+                                "UserNotification" : "DisplaySoftwareCenterOnly",
+                                "AllowRestart" : false,
+                                "DownloadFromMicrosoftUpdate" : true,
+                                "AllowUseMeteredNetwork" : false,
+                                "GenerateOperationsManagerAlert" : false,
+                                "DisableOperationsManagerAlert" : true,
+                                "GenerateOperationsManagerAlert" : false,
+                                "GenerateSuccessAlert" : false,
+                                "SoftwareInstallation" : true,
+                                "UseBranchCache" : false,
+                                "ProtectedType" : "RemoteDistributionPoint",
+                                "UnprotectedType" : "UnprotectedDistributionPoint"
+                          }
+}
